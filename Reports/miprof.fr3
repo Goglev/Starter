@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inherited ParentReport="stdrep.fr3" ReportOptions.CreateDate="42347,3300611574" ReportOptions.LastChange="42359,4384918056" ScriptText.Text="&#13;&#10;&#13;&#10;begin&#13;&#10;&#13;&#10;end.&#13;&#10;{&#13;&#10;**********Script from parent report**********&#13;&#10;procedure Memo2OnBeforePrint(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;&#13;&#10;end;&#13;&#10;&#13;&#10;begin&#13;&#10;&#13;&#10;end.&#13;&#10;{&#13;&#10;**********Script from parent report**********&#13;&#10;begin&#13;&#10;&#13;&#10;end.&#13;&#10;}&#13;&#10;}" StoreInDFM="False" PropData="044C656674024003546F70027108446174617365747301010C3200000020446174615365743D226672784442446174617365742220446174615365744E616D653D22667278444244617461736574220000095661726961626C65730100055374796C650100">
+  <inherited Name="Data"/>
+  <inherited Name="Page1" PaperSize="9">
+    <inherited Name="ReportTitle">
+      <inherited Name="Memo1"/>
+      <inherited Name="Memo2"/>
+      <inherited Name="meTitle" Left="283,46475" Width="151,1812" Text="Справочник профессий"/>
+      <inherited Name="meCriteria"/>
+      <inherited Name="meDocId"/>
+    </inherited>
+    <inherited Name="PageHeader">
+      <inherited Name="mePageNum"/>
+    </inherited>
+    <inherited Name="MasterData">
+      <inherited Name="meKOD"/>
+      <inherited Name="Memo8" Width="185,19697"/>
+      <inherited Name="Memo9" Left="230,55133" Width="423,30736"/>
+      <TfrxMemoView Name="Memo7" Left="657,63822" Top="3,77953" Width="60,47248" Height="18,89765" ShowHint="False" DisplayFormat.FormatStr="00000" DisplayFormat.Kind="fkNumeric" HideZeros="True" Text="[frxDBDataSet.&#34;MIOKPD_KOD&#34;]"/>
+    </inherited>
+    <inherited Name="MasterFooter">
+      <inherited Name="Memo3"/>
+    </inherited>
+    <inherited Name="ColumnHeader">
+      <inherited Name="Memo4"/>
+      <inherited Name="Memo5" Width="185,19697"/>
+      <inherited Name="Memo6" Left="230,55133" Width="427,08689"/>
+      <TfrxMemoView Name="Memo10" Left="661,41775" Top="0" Width="56,69295" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="ОКПД"/>
+    </inherited>
+  </inherited>
+  <TfrxDataPage Name="DataPage1" Height="1000" Left="0" Top="0" Width="1000"/>
+</inherited>

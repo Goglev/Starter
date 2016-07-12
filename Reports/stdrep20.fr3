@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inherited ParentReport="stdrep.fr3" ReportOptions.CreateDate="42347,3300611574" ReportOptions.LastChange="42356,645106713" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.&#13;&#10;{&#13;&#10;**********Script from parent report**********&#13;&#10;procedure Memo2OnBeforePrint(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;&#13;&#10;end;&#13;&#10;&#13;&#10;begin&#13;&#10;&#13;&#10;end.&#13;&#10;{&#13;&#10;**********Script from parent report**********&#13;&#10;begin&#13;&#10;&#13;&#10;end.&#13;&#10;}&#13;&#10;}" StoreInDFM="False" PropData="044C656674024003546F70027108446174617365747301010C3200000020446174615365743D226672784442446174617365742220446174615365744E616D653D22667278444244617461736574220000095661726961626C65730100055374796C650100">
+  <inherited Name="Data"/>
+  <inherited Name="Page1" PaperSize="9">
+    <inherited Name="ReportTitle">
+      <inherited Name="Memo1"/>
+      <inherited Name="Memo2"/>
+      <inherited Name="meTitle"/>
+      <inherited Name="meCriteria"/>
+      <inherited Name="meDocId"/>
+    </inherited>
+    <inherited Name="PageHeader">
+      <inherited Name="mePageNum"/>
+    </inherited>
+    <inherited Name="MasterData">
+      <inherited Name="meKOD"/>
+      <inherited Name="Memo8" Width="185,19697"/>
+      <inherited Name="Memo9" Left="230,55133" Width="487,55937"/>
+    </inherited>
+    <inherited Name="MasterFooter">
+      <inherited Name="Memo3"/>
+    </inherited>
+    <inherited Name="ColumnHeader">
+      <inherited Name="Memo4"/>
+      <inherited Name="Memo5" Width="185,19697"/>
+      <inherited Name="Memo6" Left="230,55133" Width="487,55937"/>
+    </inherited>
+  </inherited>
+  <TfrxDataPage Name="DataPage1" Height="1000" Left="0" Top="0" Width="1000"/>
+</inherited>
